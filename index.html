@@ -24,8 +24,9 @@
     </div>
     <div id="unity-warning"> </div>
     <div id="unity-footer">
-      <div id="unity-fullscreen-button"></div>
       <span id="speaker-button"></span>
+      <span id="instructions">WASD to move</span>
+      <div id="unity-fullscreen-button"></div>
     </div>
   </div>
   <script>
@@ -91,14 +92,7 @@
       container.className = "unity-mobile";
       canvas.className = "unity-mobile";
 
-      // To lower canvas resolution on mobile devices to gain some
-      // performance, uncomment the following line:
-      // config.devicePixelRatio = 1;
-
-
     } else {
-      // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-
       canvas.style.width = "960px";
       canvas.style.height = "600px";
     }
