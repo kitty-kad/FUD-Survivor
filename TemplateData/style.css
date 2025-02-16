@@ -124,3 +124,11 @@ body {
     align-content: center;
     text-align: center;
 }
+
+.splash h1 {
+    font-size: 3em;
+}
+
+.splash h2 {
+    font-size: 2em;
+}
